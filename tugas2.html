@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Data Mahasiswa</title>
+</head>
+
+<body background="mendung.jpg">
+  <h1>
+    <p class="font-weight-bold text-center">Data Mahasiswa</p>
+  </h1>
+  <!--table-->
+  <table class="table table-bordered text-center">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">No</th>
+        <th scope="col">Nama</th>
+        <th scope="col">NPM</th>
+        <th scope="col">Kelas</th>
+        <th scope="col">Jurusan</th>
+        <th scope="col">Alamat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Ilyasa Pandu Tulodo</td>
+        <td>12117881</td>
+        <td>4KA09</td>
+        <td>Sistem Informasi</td>
+        <td>Jakarta</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Muhammad Firdaus Narendra</td>
+        <td>14117017</td>
+        <td>4KA09</td>
+        <td>Sistem Informasi</td>
+        <td>Depok</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Riski Tridarma Putra</td>
+        <td>15117248</td>
+        <td>4KA09</td>
+        <td>Sistem Informasi</td>
+        <td>Bogor</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Yudi Iskandar</td>
+        <td>16117330</td>
+        <td>4KA09</td>
+        <td>Sistem Komputer</td>
+        <td>Bekasi</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!--form-->
+  <h3>Tambah Data Mahasiswa</h3>
+  <form>
+    <div class="form-group row">
+      <label for="Nama" class="col-sm-2 col-form-label">Nama</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="NPM" class="col-sm-2 col-form-label">NPM</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="npm" placeholder="Masukkan NPM">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="Kelas" class="col-sm-2 col-form-label">Kelas</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="kelas" placeholder="Masukkan Kelas">
+      </div>
+    </div>
+    <fieldset class="form-group">
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">Jurusan</legend>
+        <div class="col-sm-4">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Jurusan" id="jurusan1" value="Sistem Informasi">
+            <label class="form-check-label" for="jurusan1">Sistem Informasi</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Jurusan" id="jurusan2" value="Sistem Komputer">
+            <label class="form-check-label" for="jurusan2">Sistem Komputer</label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group row">
+      <label for="Alamat" class="col-sm-2 col-form-label">Alamat</label>
+      <div class="col-sm-4">
+        <textarea class="form-control" id="Alamat" placeholder="Masukkan Alamat"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Tambah Data</button>
+      </div>
+    </div>
+  </form>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
